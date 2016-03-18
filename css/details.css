@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "华文细黑", "微软雅黑";
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+.c-wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+/**************c-img开始******************/
+#c-img img{
+	width: 1350px;
+	height: 400px;
+}
+/**************c-img结束******************/
+
+
+/**************c-content开始******************/
+#c-content{
+	height: 650px;
+}
+
+#c-content .left{
+	float: left;
+	position: relative;
+	width: 660px;
+}
+#c-content .right{
+	float: right;
+}
+#c-content .head-img{
+	width: 155px;
+	height: 155px;
+	position: absolute;
+	top:-100px;
+}
+
+#c-content .infor{
+	
+	width: 648px;
+	height: 120px;
+}
+#c-content .infor h3{
+    font-size: 38px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #041833;
+}
+#c-content .infor p{
+	font-weight: 400;
+	display: block;
+	width: 160px;
+	height: 24px;
+	margin: 0 auto;
+	text-align: center;
+	border-top:1px solid  #041833; 
+	border-bottom:1px solid  #041833; 
+}
+#c-content .infor .tag{
+	margin: 10px auto;
+	width: 360px;
+	height: 38px;
+}
+#c-content .infor .tag li{
+	float: left;
+	margin-right: 15px;
+    border-radius: 15px;
+    border: 1px solid #041833;
+    padding: 3px;
+}
+#c-content .right{
+	float: right;
+	width: 300px;
+	height: 400px;
+	margin-top: 160px;
+}
+#c-content .right h5{
+	font-size: 16px;
+}
+#c-content .right .purport{
+	width: 320px;
+	height: 170px;
+	background: #C0B9A6;
+	border-radius: 4px;
+	margin-top: 30px;
+	background: url(../img/119.jpg) no-repeat;
+}
+#c-content .right span{
+	display: block;
+	width: 260px;
+	height: 40px;
+	border-radius: 6px;
+	background: red;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	background: #FC5A4D;
+}
+#c-content .right .purport h4{
+	text-indent: 20px;
+	font-size: 24px;
+	color: #2A8951;
+}
+#c-content .right .purport p{
+	text-indent: 20px;
+	color: #806667;
+	font-weight: 15px;
+}
+/**************c-content结束******************/
+
+
+/**************c-provider开始******************/
+#c-provider .c-wrap{
+	border-top: 1px solid #A6B8AC;
+}
+#c-provider img{
+	margin-top: 20px;
+}
+#c-provider .describe{
+	margin-top: 20px;
+	width: 800px;
+}
+/**************c-provider结束******************/
+
+
+
+/**************c-comment开始******************/
+#c-comment .c-wrap{
+	border-top: 1px solid #A6B8AC;
+}
+#c-comment .word{
+	width: 750px;
+	height: 130px;
+	border-bottom: 1px solid gray;
+}
+#c-comment .word img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#c-comment span{
+	margin-left: 15px;
+}
+#c-comment p{
+	margin-left: 120px;
+}
+
+/**************c-comment结束******************/
+
+
+/**************c-footer开始******************/
+#c-footer{
+	background: gray;
+	height: 300px;
+	width: 100%;
+}
+
+/**************c-footer结束******************/
